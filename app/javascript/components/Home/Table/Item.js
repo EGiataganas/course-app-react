@@ -32,7 +32,7 @@ const Item = (props) => {
                   <h4>{props.title}</h4>
                   <p>{props.description}</p>
                   <div className="cta-wrapper">
-                    <Button className="cta-button">Watch this Video</Button>
+                    <Button onClick={props.handleVideoChange} className="cta-button">Watch this Video</Button>
                   </div>
                 </div>
               </div>
